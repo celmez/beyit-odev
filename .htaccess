@@ -1,8 +1,9 @@
 Options -MultiViews
 RewriteEngine On
 
-RewriteRule ^sehir/([0-9a-zA-Z-_]+)$ city.php?c=$1
+RewriteRule ^sehir/([0-9a-zA-Z-_]+)$ sehir.php?c=$1
 RewriteRule ^bolge/([0-9a-zA-Z-_]+)$ bolge.php?b=$1
+RewriteRule ^yemek/([0-9a-zA-Z-_]+)$ yemek.php?food=$1
 
 # Hide .html extension
 ## External Redirect

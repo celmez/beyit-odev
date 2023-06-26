@@ -19,6 +19,31 @@
                 yemedendoydum.com
             </a>
         </div>
+        <style type="text/css">
+            .menu-ul li a {
+                display: inline-block;
+                padding-bottom: 0.25rem;
+                position: relative;
+                color: #f3f4f5;
+                user-select: none;
+                -ms-user-select: none;
+                -moz-user-select: none;
+                -webkit-user-select: none;
+            }
+            .menu-ul li a::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 0;
+                height: 2px;
+                background-color: #f3f4f5;
+                transition: width 0.50s ease-out;
+            }
+            .menu-ul li a:hover::before {
+                width: 100%;
+            }
+        </style>
         <div class="menu" id="menu">
             <ul class="menu-ul">
                 <li>
