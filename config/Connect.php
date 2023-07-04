@@ -3,7 +3,7 @@
     ob_start();
     date_default_timezone_set( 'Europe/Istanbul' );
 
-    define( 'SITE_URL', 'http://localhost/beyit-odev/' );
+    define( 'SITE_URL', 'http://localhost:8080/beyit-odev/' );
 
     class Connect
     {
